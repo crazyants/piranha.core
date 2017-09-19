@@ -33,6 +33,10 @@ namespace Piranha.Data
             new DbMigration() {
                 Name = "AddMediaType",
                 Script = "Piranha.Data.Migrations.4.sql"
+            },
+            new DbMigration() {
+                Name = "AddMediaVersions",
+                Script = "Piranha.Data.Migrations.5.sql"
             }
         };
 
